@@ -1,5 +1,6 @@
-def loop() {
-  for (int x = 0; x <= 5; x=x+1) {
-            println (x);
-        }
+def newFile() {
+  new FileWriter("example.txt", true).with {
+	write("Hello world\n")
+	flush()
+}
 }
