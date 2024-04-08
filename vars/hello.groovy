@@ -1,9 +1,9 @@
 def info(message) {
-    echo "Test2"
+    echo "Test3"
     echo "INFO: ${message}"
 }
 
 def warning(message) {
-    echo "Warning block xyz"
+    echo "Warning block ......"
     echo "WARNING: ${message}"
 }
