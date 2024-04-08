@@ -1,6 +1,5 @@
 def newFile() {
-  new FileWriter("example.txt", true).with {
-	write("Hello world\n")
-	flush()
-}
+  writeFile(file: "filename.txt", text: "This is final", encoding: "UTF-8")
+  println "(==========================)"
+  readFile('filename.txt')
 }
